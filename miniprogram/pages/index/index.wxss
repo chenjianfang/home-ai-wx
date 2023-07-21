@@ -1,0 +1,113 @@
+.container{
+  padding: 16px;
+  background: linear-gradient(90deg, rgb(41, 50, 60) 0%, rgb(72, 85, 99) 100%);
+}
+.view{
+  display: flex;
+  align-items: center;
+}
+.view_item{
+  font-size: 14px;
+  width: 90px;
+  height: 40px;
+  line-height: 40px;
+  text-align: center;
+  color: #fff;
+  background: rgb(71, 71, 71);
+  cursor: pointer;
+}
+.view_item-active {
+ background: linear-gradient(270deg, rgb(0, 0, 0) 0%, rgb(92, 92, 92) 100%);
+  box-shadow: 1px 0px 4px rgba(0, 0, 0, 0.1);
+}
+.inputFileSmall{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 260px;
+  height: 260px;
+  border-radius: 26px;
+  border: 1px dashed rgb(255, 255, 255);
+  cursor: pointer;
+  margin-top: 20px;
+  overflow: hidden;
+}
+.uploadBtn{
+  width: 150px;
+  height: 45px;
+  line-height: 45px;
+  text-align: center;
+  border-radius: 8px;
+  background: linear-gradient(90deg, rgb(0, 38, 255) 0%, rgb(0, 166, 255) 100%);
+  color: #fff;
+  font-size: 20px;
+}
+.uploadTips{
+  font-size: 16px;
+  margin-top: 30px;
+  color: #fff;
+}
+.roomSelect{
+  position: relative;
+  padding: 0 10px;
+  width: 286rpx;
+  height: 27px;
+  line-height: 27px;
+  margin-top: 17px;
+  color: #fff;
+  background: linear-gradient(90deg,#999,#000);
+}
+.roomSelectRow{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  cursor: pointer;
+}
+.selectArrow{
+  font-size: 0;
+  display: flex;
+  align-items: center;
+}
+.selectArrow_img{
+  width: 30rpx;
+  height: 27rpx;
+}
+.styleBox{
+  margin-top: 17px;
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: nowrap;
+  overflow-x: auto;
+  width: 100%;
+}
+.styleItem{
+  margin-right: 24rpx;
+  margin-bottom: 6rpx;
+}
+.styleImg{
+  width: 160rpx;
+  height: 160rpx;
+  border-radius: 20rpx;
+  overflow: hidden;
+}
+.styleImg_img{
+  width: 100%;
+  height: 100%;
+}
+.styleTitle{
+  margin-top: 6px;
+  text-align: center;
+  color: #fff;
+  font-size: 24rpx;
+}
+.generator{
+  width: 112px;
+  height: 36px;
+  text-align: center;
+  line-height: 36px;
+  border-radius: 8px;
+  margin-top: 10px;
+  background: linear-gradient(90deg,#ff9d00,#383838 0,#a1a1a1 101%);
+  color: #fff;
+}
